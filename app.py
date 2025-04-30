@@ -32,7 +32,7 @@ def aes_encrypt(key, plaintext):
     # Debug prints
     print(f"Encryption - Key (hex): {key.hex()}")
     print(f"Encryption - IV (hex): {iv.hex()}")
-    print(f"Encryption - Tag (hex): {encryptor.tag.hex()}")
+    print(f"Enccryption - Tag (hex): {encryptor.tag.hex()}")
     print(f"Encryption - Ciphertext (hex): {ciphertext.hex()}")
     print(f"Encryption - Plaintext: {plaintext}")
     
