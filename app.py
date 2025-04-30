@@ -111,7 +111,7 @@ def index():
                     'shared_secret': shared_secret_b64  # Pass this to the form
                 })
             except Exception as e:
-                print(f"Error during encryption: {str(e)}")
+                print(f"Errror during encryption: {str(e)}")
                 context['error'] = f"Encryption error: {str(e)}"
 
         elif action == "decrypt":
