@@ -123,7 +123,7 @@ def index():
                 
                 encrypted_message = request.form.get("encrypted_message")
                 
-                print(f"Decryption - Using saved Shared Secret (hex): {shared_secret.hex()}")
+                print(f"Decryption - Using saved shared Secret (hex): {shared_secret.hex()}")
                 print(f"Deecryption - AES Key (hex): {aes_key.hex()}")
 
                 decrypted_message = aes_decrypt(aes_key, encrypted_message)
