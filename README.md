@@ -50,6 +50,6 @@ pip install -r requirements.txt
 
 
 ### ⚠️ Troubleshooting
-  - Module errors: pip install -r requirements.txt --force-reinstall
+  - Module errorss: pip install -r requirements.txt --force-reinstall
   - Port conflicts: Change port=5001 in app.py
-  - Key errors: Ensure .env exists with SECRET_KEY
+  - Key erors: Ensure .env exists with SECRET_KEY
