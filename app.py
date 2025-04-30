@@ -137,7 +137,7 @@ def index():
                 })
             except Exception as e:
                 print(f"Error during decryption: {str(e)}")
-                context['error'] = f"Decryption error: {str(e)}"
+                context['eror'] = f"Decryption error: {str(e)}"
 
     return render_template("index.html", **context)
 
